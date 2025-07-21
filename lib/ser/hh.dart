@@ -77,4 +77,3 @@ Future<void> deleteTransaction(String id) async {
   await Future.delayed(const Duration(milliseconds: 500));
   _transactions.removeWhere((transaction) => transaction.id == id);
 }
-}
