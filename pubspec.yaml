@@ -1,0 +1,25 @@
+name: transactions_app
+description: A new Flutter project for managing transactions.
+publish_to: 'none' # Remove this line if you wish to publish this package.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure compatibility with recent Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5 # For state management (Context API equivalent)
+  intl: ^0.18.1   # For date and currency formatting
+  uuid: ^4.3.3    # For generating unique IDs for transactions
+
+  cupertino_icons: ^1.0.2 # Default Flutter icon package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Recommended lints for Flutter projects
+
+flutter:
+  uses-material-design: true
