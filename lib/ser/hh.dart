@@ -65,8 +65,8 @@ Future<List<Transaction>> fetchTransactions() async {
 
 // Simulate adding a new transaction to an API
 Future<Transaction> addTransaction(Transaction transaction) async {
-  // Simulate network delay
-  await Future.delayed(const Duration(seconds: 1));
+  // Simulate network dela
+  await Future.delayed(const uration(seconds: 1));
   // Simulate a successful API response by adding to our local list
   _transactions.add(transaction);
   return transaction; // Return the added transaction
