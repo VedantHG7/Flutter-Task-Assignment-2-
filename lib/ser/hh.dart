@@ -75,4 +75,4 @@ Future<Transaction> addTransaction(Transaction transaction) async {
 // Simulate deleting a transaction (optional, but good for completeness)
 Future<void> deleteTransaction(String id) async {
   await Future.delayed(const Duration(milliseconds: 500));
-  _transactions.removeWhere((transaction) => transacon.id =
+  _transactions.removeWhere((transaction) => transaon.id =
