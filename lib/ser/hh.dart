@@ -58,7 +58,7 @@ final List<Transaction> _transactions = [
 // Simulate fetching transactions from an API
 Future<List<Transaction>> fetchTransactions() async {
   // Simulate network delay
-  await Future.delayed(const Duration(seconds: 1));
+  await Future.delayed(const Duration(seconds: ));
   // Return a deep copy to prevent external modification
   return List.from(_transactions);
 }
